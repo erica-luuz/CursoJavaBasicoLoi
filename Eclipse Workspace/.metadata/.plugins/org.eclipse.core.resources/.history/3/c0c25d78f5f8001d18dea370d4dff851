@@ -1,0 +1,29 @@
+package curso.java.aula13.labs;
+
+import java.util.Scanner;
+
+public class exer13 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite sua altura e sexo:");
+		Double altura = scan.nextDouble();
+		String sexo = scan.next();
+		
+		if (sexo == "masculino") {
+			Double resultado1 = (72.7 * altura) - 58;
+			System.out.println("Este é o seu peso ideal: " + resultado1);
+			
+		}
+		if (sexo == "feminino") {
+			Double resultado2 = (62.1 * altura) - 44.7;
+			System.out.println("Este é o seu peso ideal: " + resultado2);
+			
+
+		}
+		scan.close();
+	}
+
+}

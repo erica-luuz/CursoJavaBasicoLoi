@@ -1,0 +1,20 @@
+package curso.java.aula15.labs;
+
+import java.util.Scanner;
+
+public class exer25 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Telefonou para a vitima? (true ou false)");
+		Boolean telefonou = scan.nextBoolean();
+		System.out.println("Esteve no local do crime? ( true ou false)");
+		Boolean esteveNoLocal = scan.nextBoolean();
+		
+		
+
+	}
+
+}

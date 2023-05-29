@@ -1,0 +1,21 @@
+package curso.java.aula13.labs;
+
+import java.util.Scanner;
+
+public class exer06 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Digite o raio do circulo: ");
+		Double diametro = scan.nextDouble();
+		Double pi = 3.14159;
+		Double raio = diametro / (2 * pi);
+		
+		System.out.println("a área do círculo é: " + raio);
+
+		scan.close();
+	}
+
+}
