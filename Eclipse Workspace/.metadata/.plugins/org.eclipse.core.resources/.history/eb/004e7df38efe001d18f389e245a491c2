@@ -8,10 +8,10 @@ public class exer02 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Entre com um numero:");
-		int valor = scan.nextInt();
+		System.out.println("Digite um valor: ");
+		Double valor = scan.nextDouble();
 		
-		if (valor >= 0) {
+		if (valor % 2 == 0) {
 			System.out.println("Este valor é positivo");
 		} else {
 			System.out.println("Este valor é negativo");

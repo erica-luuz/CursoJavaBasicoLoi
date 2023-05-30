@@ -8,7 +8,6 @@ public class exer02 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Entre com um numero:");
 		int valor = scan.nextInt();
 		
 		if (valor >= 0) {

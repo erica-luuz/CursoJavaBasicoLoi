@@ -1,4 +1,4 @@
-package curso.java.aula15.labs; // Concluir não sei pq esta dando erro
+package curso.java.aula15.labs; // Concluir
 
 import java.util.Scanner;
 
@@ -44,7 +44,7 @@ public class exer26 {
 				Double valorTotalGasolina = valorComDesconto6 * litros;
 				System.out.println("O Valor a ser pago será: R$ " + valorTotalGasolina );
 			}
-		
+		scan.close();
 		}
 	}
 }
