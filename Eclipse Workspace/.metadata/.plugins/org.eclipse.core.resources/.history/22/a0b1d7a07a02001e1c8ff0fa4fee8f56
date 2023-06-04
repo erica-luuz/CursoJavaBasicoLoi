@@ -11,7 +11,7 @@ public class exer04 {
 		System.out.println("Digite uma letra:");
 		String letra = scan.nextLine();
 		
-		if (letra.length() > 1) {
+		/*if (letra.length() > 1) {
 			System.out.println("Não é uma letra válida");
 		}else {
 			switch (letra) {
@@ -28,16 +28,16 @@ public class exer04 {
 			default:
 				System.out.println("Consoante");
 			}
-		}
+		}*/
 			
 		//ou
-		/*if (letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e")||
+		if (letra.equalsIgnoreCase("a") || letra.equalsIgnoreCase("e")||
 				letra.equalsIgnoreCase("i") || letra.equalsIgnoreCase("o") ||
 				letra.equalsIgnoreCase("u")) {
 			System.out.println("Vogal");
 		}else {
 			System.out.println("Consoante");
-		}*/
+		}
 		scan.close();
 	}
 }

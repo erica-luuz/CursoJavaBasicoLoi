@@ -15,11 +15,13 @@ public class exer08 {
 		System.out.println("Digite o valor do 3º produto:");
 		Double valorProduto3 = scan.nextDouble();
 		
-		if (valorProduto1 <= valorProduto2 && valorProduto1 <= valorProduto3) {
+		if (valorProduto1 < valorProduto2 && valorProduto1 < valorProduto3) {
 			System.out.println("Levar este produto, pois ele é o mais em conta, seu valor é: R$  " + valorProduto1 );
-		}else if (valorProduto2 <= valorProduto1 && valorProduto2 <= valorProduto3) {
+		}
+		if (valorProduto2 < valorProduto1 && valorProduto2 < valorProduto3) {
 			System.out.println("Levar este produto, pois ele é o mais em conta, seu valor é: R$  " + valorProduto2 );
-		}else if (valorProduto3 <= valorProduto2 && valorProduto3 <= valorProduto1) {
+		}
+		if (valorProduto3 < valorProduto2 && valorProduto3 < valorProduto1) {
 			System.out.println("Levar este produto, pois ele é o mais em conta, seu valor é: R$  " + valorProduto3 );
 		}
 		scan.close();

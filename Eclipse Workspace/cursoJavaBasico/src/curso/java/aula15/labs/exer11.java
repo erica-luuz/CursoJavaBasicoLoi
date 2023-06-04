@@ -11,6 +11,7 @@ public class exer11 {
 		System.out.println("Digite o salário de um colaborador");
 		Double salarioAtual = scan.nextDouble();
 		
+		//Eu resolvi assim:
 		if (salarioAtual <= 280) {
 			Double aumento20 = salarioAtual * 20 / 100;
 			Double novoSalario = salarioAtual + aumento20;

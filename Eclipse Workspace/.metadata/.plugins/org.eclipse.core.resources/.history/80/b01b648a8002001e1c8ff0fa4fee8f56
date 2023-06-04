@@ -27,8 +27,6 @@ public class exer10 {
 			System.out.println("Boa tarde!");
 		}else if (turno.equalsIgnoreCase("n")) {
 			System.out.println("Boa noite!");
-		}else {
-			System.out.println("Valor inválido");
 		}
 		scan.close();
 	}
